@@ -1,0 +1,171 @@
+ :root {
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Verydarkblue: hsl(217, 54%, 11%);
+    --Verydark: hsl(216, 50%, 16%);
+    --Verydarkblued: hsl(215, 47%, 18%);
+    --White: hsl(0, 0%, 100%);
+}
+body {
+    margin: 0 auto;
+    width: auto;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Verydarkblue);
+}
+.maincard {
+    margin: 0 auto;
+    width: 265px;
+    height: 500px;
+    margin-top: 100px;
+    background-color: var(--Verydarkblued);
+    border-radius: 12px;
+    box-shadow:0px 10px 18px 11px rgb(11, 22, 36) ;
+    border: var(--Verydarkblued) 22px solid;
+}
+
+.maincard img {
+    width: 268px;
+    margin-top: -15px;
+    border-radius: 7px;
+    margin-left: -1px;
+    
+}
+
+.activemode {
+    width: 268px;
+    margin-top: -270px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    margin-left: -1px;
+    height: 265px;
+    border-radius: 7px;
+    background-color: var(--Cyan);
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+
+.view  img {
+    position: relative;
+    z-index: 5;
+    width: 30px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -180px;
+    margin-bottom: 140px;
+}
+
+#hidden {
+    opacity: 0;
+}
+
+#hidden:hover {
+   opacity: 1;
+}
+
+.equilibrium {
+    cursor: pointer;
+    color: var(--White);
+}
+.equilibrium:hover{
+    color: var(--Cyan);
+}
+ 
+.content p {
+     line-height: 25.6px;
+     color: var(--Softblue);
+     font-size: 15px;
+}
+.writeup h3 {
+    font-weight: 600;
+
+}
+
+.coin {
+    display: flex;
+    flex-direction: inline row;
+    margin-top: -17px;
+}
+.coin p {
+    font-size: 14px;
+}
+
+.coin p img {
+    margin-left: 99px; 
+    margin-top: 5px;
+    align-items: center;
+    width: 15px;
+
+}
+
+.coin h5 {
+    font-weight: 700 bold;
+    align-items: center;
+    color: var(--Cyan);
+}
+
+.coin h5 img {
+    width: 9px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: inline row;  
+    margin-top: 2px;
+    margin-left: 10px;
+    padding-top: 7px;
+    border-top: var(--Softblue) 0.1px solid;
+    align-items: center;
+    word-spacing: 1.2px;
+    
+}
+.image img {
+    width: 27px;
+    height: 25px;
+    border-radius: 15px;
+    border: white 1px solid;
+}
+
+.create {
+    display: flex;
+    flex-direction: row;
+}
+
+.creation {
+    padding-left: 15px;
+    color: var(--Softblue);
+    padding-bottom: 15px;
+    font-size: 15px;
+
+}
+
+.name {
+    margin: 14.5px 18px 10px 4.5px; 
+    padding: 0 0 5.8px 0; 
+    color: var(--White);
+    cursor: pointer;
+}
+.name:hover {
+    color: var(--Cyan);
+}
+@media (min-width :60px) and (max-width : 375px){
+    .maincard {
+        margin: 0 auto;
+        width: 275px;
+        height: 490px;
+        margin-top: 100px;
+        background-color: var(--Verydarkblued);
+        border-radius: 12px;
+        box-shadow:0px 10px 18px 11px rgb(11, 22, 36) ;
+        border: var(--Verydarkblued) 22px solid;
+    }
+    .maincard img {
+        margin-left: 2.5px;
+        margin-bottom: px;
+    }
+    .content {
+        margin-left: 7px;
+    }
+   
+}
